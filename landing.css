@@ -1,0 +1,265 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.heading2 {
+    font-size: 50px;
+}
+
+.heading4 {
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.backimg .main_img {
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    background-attachment: fixed; 
+}
+
+
+.backimg nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 9999;
+}
+
+#align li a {
+    transition: 0.6s;
+}
+
+
+#align li a:hover {
+    transform: scale(1.1);
+    color: white;
+    transition: 0.6s;
+}
+
+
+#log_sign a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+#log_sign .login {
+    transition: 0.6s;
+    background-color: white;
+    color: #f94c4c;
+}
+
+#log_sign .login:hover {
+    transition: 0.6s;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#log_sign .signup {
+    transition: 1s;
+    background-color: #f94c4c;
+}
+
+#log_sign .signup:hover {
+    transition: 0.6s;
+    background-color: transparent;
+    border: 1px solid #f94c4c;
+}
+
+
+/* Responsiveness for BACKGROUND IMAGE */
+
+@media (max-width:479px) {
+    .main_img {
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+}
+
+
+@media (max-width:575px) {
+    .main_img {
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width:767px) {
+    .main_img {
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+}
+
+
+
+@media (max-width: 1199px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media (max-width: 575px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media (max-width: 479px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+
+.caption {
+    position: absolute;
+    top: 16%;
+    left: 20%;
+    color: white;
+}
+
+
+
+
+/* Responsiveness for FORM */
+form div {
+    padding: 0% 1%;
+}
+
+form button {
+    width:13rem;
+    height: 2.4rem;
+}
+
+form button {
+    width: 100%;
+    max-width: 13rem;
+    height: 2.4rem;
+}
+
+
+@media (max-width: 767px) {
+    form button {
+        max-width: 10rem; 
+        height: 2.2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    form button {
+        max-width: 8rem; 
+        height: 2.2rem;
+    }
+}
+
+@media (max-width: 360px) {
+    form button {
+        max-width: 6rem; 
+        height: 2.2rem;
+    }
+}
+
+
+.sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    z-index: 1050;  /* so that when we scroll the side-bar remains on the top */
+}
+
+
+.booking-area {
+    background-color: rgba(255, 255, 255, 0.724);
+    margin-top: -4rem;
+    padding: 3.125rem 1.875rem;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.booking-area form {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.booking-area:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+.backimg .main_img {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    z-index: 0; /* Keep the image in the background */
+}
+
+.booking-area div {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.booking-area input{
+    border: 2px solid black;
+    color: black;
+}
+
+.booking-area select{
+    border: 2px solid black;
+    color: black;
+}
+
+.booking-area button{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.booking-area button:hover {
+    background-color:#f94c4c;
+    border: 2px solid black;
+    transition: 0.5s;
+    color: white;
+    transform: scale(1.1);
+}
+
+#align li a {
+    padding: 0px 12px;
+}
