@@ -263,3 +263,75 @@ form button {
 #align li a {
     padding: 0px 12px;
 }
+
+
+
+
+/* ABOUT SECTION */
+
+.cont .main-btn {
+    font-size: 1.5rem;
+    padding: 1%;
+    border-radius: 20px;
+    border: 2px solid #f94c4c ;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: #f94c4c;
+    transition: 0.4s;
+    
+}
+
+
+.cont .main-btn:hover {
+    background-color: transparent;
+    color: #f94c4c;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+
+.head1 {
+    font-size: 2.5rem;
+}
+
+.p1 {
+    font-size: 1.2rem;
+}
+
+
+.about_section {
+    padding-top: 9.375rem;
+}
+
+.span1 {               /* Span for word "Exoticarz */
+    color: #f94c4c;
+}
+
+
+.welcome img {
+    border-radius: 5px;
+    transition:  0.5s ease, box-shadow 0.5s ease;
+    
+}
+
+.welcome img:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.87)
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .head1 {
+        font-size: 2.1rem;
+    }
+
+    .p1 {
+        font-size: 1rem;
+    }
+
+    .cont .main-btn {
+        font-size: 1.2rem;
+    }
+
+}
