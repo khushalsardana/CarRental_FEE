@@ -1,0 +1,114 @@
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+body {
+    margin: 0;
+    padding: 0
+}
+.lightgray {
+    background-color: #f2f2f2
+}
+.container {
+    width: 92%;
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0
+}
+
+fieldset.sec-row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+
+fieldset.sec-row>div[class*="sec-md-col"],
+fieldset.sec-row>div[class*="sec-xs-col"] {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.inputgrp {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 5px;
+    position: relative;
+    overflow: hidden
+}
+.inputgrp .csinput,
+.inputgrp .select,
+.inputgrp input,
+.inputgrp select,
+.inputgrp textarea {
+    display: block;
+    color: #000;
+    font-family: "Barlow Condensed", arial;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 15.5px 25px;
+    margin: 5px 0 0;
+    width: 100%;
+    max-width: 100%
+}
+.inputgrp textarea {
+    min-height: 70px
+}
+@media(max-width:1600px) {
+
+    .inputgrp .select,
+    .inputgrp input,
+    .inputgrp select,
+    .inputgrp textarea {
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 12px 20px
+    }
+}
+@media(max-width:1366px) {
+
+    .inputgrp .csinput,
+    .inputgrp .select,
+    .inputgrp input,
+    .inputgrp select,
+    .inputgrp textarea {
+        font-size: 14px;
+        border-radius: 7px;
+        padding: 14px 20px
+    }
+}
+.frmbtn {
+    cursor: pointer;
+    color: #fff;
+    font-family: "Barlow Condensed", arial;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 18px 35px;
+    margin: 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 200px
+}
