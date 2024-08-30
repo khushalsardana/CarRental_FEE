@@ -112,3 +112,93 @@ fieldset.sec-row>div[class*="sec-xs-col"] {
     vertical-align: top;
     min-width: 200px
 }
+@media(max-width:1600px) {
+    .frmbtn {
+        font-size: 15px;
+        padding: 12px 28px;
+        min-width: 140px
+    }
+}
+.sec-row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.clearboth:after,
+.clearboth:before,
+.sec-row:after,
+.sec-row:before {
+    content: "";
+    display: table
+}
+
+.clearboth:after,
+.sec-row:after {
+    clear: both
+}
+
+.flexrow {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.flexrow:after,
+.flexrow:before {
+    display: none
+}
+
+.sec-col,
+[class*="sec-col"],
+[class*="sec-lg-col"],
+[class*="sec-md-col"],
+[class*="sec-xlg-col"],
+[class*="sec-xs-col"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px
+}
+@media all and (min-width:901px) {
+    .sec-md-col-6 {
+        width: 6%
+    }
+}
+.sec-md-col-50 {
+    width: 50%
+}
+.sec-md-col-100 {
+    width: 100%
+}
+@media all and (min-width:1025px) {
+    .sec-xlg-col-20 {
+        width: 20%
+    }
+}
+.sec-xlg-col-50 {
+    width: 50%
+}
+
+@media all and (max-width:1600px) {
+    .hide-under-1600 {
+        display: none !important
+    }
+
+    .container {
+        width: 86%
+    }
+}
+
+@media all and (max-width:1366px) {
+    .hide-1366 {
+        display: none !important
+    }
+}
+body {
+    color: #000;
+    font-family: Barlow, arial;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    position: relative;
+    overflow-x: hidden
+}
