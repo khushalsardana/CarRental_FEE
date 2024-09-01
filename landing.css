@@ -390,9 +390,9 @@ form button {
     }
   
   
-  .nav-item {
+  /* .nav-item {
       width: 100%;
-    }
+    } */
 
 
 
@@ -649,7 +649,6 @@ form button {
 .back_logo .exp-logo:hover {
     transition: 0.5s;
     color: #f94c4c;
-    /* transform: scale(1.4); */
     font-size: 25px;
 }
 
@@ -696,3 +695,297 @@ form button {
 }
 
 /* BACKGROUND IMAGE BLUR END */
+
+
+
+ /* TEAM SECTION START */
+ .team_section {
+    margin-top: 20%;
+}
+
+.card img {
+    width: 600px;
+    height: 500px;
+}
+
+
+.team_section .card {
+position: relative;
+overflow: hidden;
+}
+
+.team_section .team-info {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+    padding: 1.25rem;
+    margin-bottom: -4.67rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.team_section .card:hover .team-info {
+    margin-bottom: 0%;
+}
+
+.team_section .team-info h5,
+.team_section .team-info p {
+color: white;
+}
+
+.team_section .team-info .social-network {
+    transition: all 0.3s ease-in-out;
+    padding: 1.25rem;
+    margin: 1.25rem -1.25rem -1.25rem;
+    background-color:#f94c4c;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team_section .team-info .social-network li a {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    display: block;
+    border-radius: 50%;
+    font-size: .9375rem;
+    color: white;
+    border: 0.0625rem solid white;
+}
+
+.team_card .card {
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team_card:hover .card {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.87);
+}
+
+/* TEAM SECTION END */
+
+
+
+
+
+/* PICKS IMAGES START */
+
+.picks_main {
+    margin-top: 3%;
+}
+
+
+.picks_section{
+    margin-top: 10%;
+}
+
+
+
+.car_info .about {
+    font-size:18px;
+}
+
+
+.car_info .main-btn {
+    text-decoration: none;
+    background-color:#f94c4c;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 6%;
+    border: 0%;
+}
+
+
+.card_picks .card:hover {
+    background-color: black;
+    color: rgb(249, 144, 6);
+    transition: 0.5s;
+    border: 0px;
+}
+
+
+.card_picks .card {
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+/* PICKS IMAGES START */
+
+.card_picks .card {
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card_picks:hover .card {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.87);
+}
+
+/* box shadow end */
+.nav-item .nav-link {
+    background-color: transparent;
+}
+
+.service-menu-area .nav {
+    border: none;
+}
+
+
+
+
+
+.card_picks .card:hover a {
+    background-color:rgb(254, 175, 3);
+    color: black;
+}
+
+
+
+.back_section {
+    margin-top: 20%;
+}
+
+
+
+
+.back_section .container-fluid {
+    background: url("./images/mustang.jpeg") ;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.back_content h2 b,
+.back_content h4,
+.back_content p {
+    color: white;
+    background-color: transparent;
+    transition: transform 0.5s ease;
+}
+
+.back_content p {
+    padding: 0px 80px;
+    
+}
+
+
+.back_content h2 b {
+    font-size: 50px;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+.back_content h2:hover b {
+    color: rgb(255, 170, 0);
+    transition: 0.5s;
+}
+
+.back_content .heading4:hover {
+    color: rgb(255, 170, 0);
+    transition: 0.5s;
+}
+
+
+.back_content .para:hover {
+    color: rgb(255, 170, 0);
+    transition: 0.5s;
+}
+
+
+.back_content h2:hover b,
+.back_content h4:hover,
+.back_content p:hover {
+    transform: scale(1.05);
+}
+
+
+.back_content p {
+    font-size: 25px;
+    margin-top: 3%;
+    
+}
+
+.back_logo .exp-logo {
+    transition:  0.6s ease;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.back_logo .exp-logo:hover {
+    transition: 0.5s;
+    color:rgb(255, 170, 0);
+    font-size: 25px;
+}
+
+.exp-logo {
+    background-color: transparent;
+}
+
+
+.back_content {
+    background-color: transparent;
+}
+
+.blur_head {
+    background-color: transparent;
+    transition: 0.5s;
+    
+}
+
+.blur_head:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.back_logo {
+    background-color: transparent;
+}
+
+.lg {
+    background-color: transparent;
+}
+
+.finger_logo {
+    background-color: transparent;
+}
+
+.social-network li {
+    border-radius: 100%;
+
+}
+
+
+
+/* FOOTER START */
+
+
+footer {
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer .row ul li a {
+    text-decoration: none;
+    color: white;
+}
+
