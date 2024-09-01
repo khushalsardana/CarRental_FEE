@@ -350,3 +350,107 @@ p {
 .showrooms-sec .cntnt-grp .btn-grp {
     padding-top: 30px;
 }
+@media (max-width: 1600px) {
+    .service-center-sec {
+        padding: 100px 0;
+    }
+}
+.service-center-sec {
+    padding: 130px 0;
+}
+
+.sec-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.clearboth:after, .clearboth:before, .sec-row:after, .sec-row:before {
+    content: "";
+    display: table;
+}
+
+.clearboth:after, .sec-row:after {
+    clear: both;
+}
+.clearboth:after, .clearboth:before, .sec-row:after, .sec-row:before {
+    content: "";
+    display: table;
+}
+
+@media (max-width: 1366px) and (min-width: 768px) {
+    .motivated-team-sec .clmns-grp>.cntnt-clmn, .motivated-team-sec .clmns-grp>.img-clmn, .service-center-sec .clmns-grp>.cntnt-clmn, .service-center-sec .clmns-grp>.img-clmn, .showrooms-sec .clmns-grp>.cntnt-clmn, .showrooms-sec .clmns-grp>.img-clmn, .vision-sec .clmns-grp>.cntnt-clmn, .vision-sec .clmns-grp>.img-clmn {
+        margin: 15px 0;
+        padding: 0 25px;
+    }
+}
+@media (max-width: 1600px) {
+    .motivated-team-sec .clmns-grp>.cntnt-clmn, .motivated-team-sec .clmns-grp>.img-clmn, .service-center-sec .clmns-grp>.cntnt-clmn, .service-center-sec .clmns-grp>.img-clmn, .showrooms-sec .clmns-grp>.cntnt-clmn, .showrooms-sec .clmns-grp>.img-clmn, .vision-sec .clmns-grp>.cntnt-clmn, .vision-sec .clmns-grp>.img-clmn {
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+}
+.motivated-team-sec .clmns-grp>.cntnt-clmn, .motivated-team-sec .clmns-grp>.img-clmn, .service-center-sec .clmns-grp>.cntnt-clmn, .service-center-sec .clmns-grp>.img-clmn, .showrooms-sec .clmns-grp>.cntnt-clmn, .showrooms-sec .clmns-grp>.img-clmn, .vision-sec .clmns-grp>.cntnt-clmn, .vision-sec .clmns-grp>.img-clmn {
+    padding: 0 38px;
+    margin: 0 0 25px;
+}
+@media (min-width: 901px) {
+    .sec-md-col-50 {
+        width: 50%;
+    }
+}
+.sec-col, [class*="sec-col"], [class*="sec-lg-col"], [class*="sec-md-col"], [class*="sec-xlg-col"], [class*="sec-xs-col"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+element.style {
+    background-image: url(https://cdn.bigboytoyz.com/new-version/assets/images/dedicated-servicecenter-img.jpg);
+}
+@media (max-width: 1600px) {
+    .motivated-team-sec .img-grp.bgimg, .service-center-sec .img-grp.bgimg, .showrooms-sec .img-grp.bgimg, .vision-sec .img-grp.bgimg {
+        padding-bottom: 75%;
+    }
+
+}
+@media (max-width: 1366px) and (min-width: 768px) {
+    .motivated-team-sec .clmns-grp>.cntnt-clmn, .motivated-team-sec .clmns-grp>.img-clmn, .service-center-sec .clmns-grp>.cntnt-clmn, .service-center-sec .clmns-grp>.img-clmn, .showrooms-sec .clmns-grp>.cntnt-clmn, .showrooms-sec .clmns-grp>.img-clmn, .vision-sec .clmns-grp>.cntnt-clmn, .vision-sec .clmns-grp>.img-clmn {
+        margin: 15px 0;
+        padding: 0 25px;
+    }
+}
+@media (max-width: 1600px) {
+    .motivated-team-sec .clmns-grp>.cntnt-clmn, .motivated-team-sec .clmns-grp>.img-clmn, .service-center-sec .clmns-grp>.cntnt-clmn, .service-center-sec .clmns-grp>.img-clmn, .showrooms-sec .clmns-grp>.cntnt-clmn, .showrooms-sec .clmns-grp>.img-clmn, .vision-sec .clmns-grp>.cntnt-clmn, .vision-sec .clmns-grp>.img-clmn {
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+}
+.motivated-team-sec .clmns-grp>.cntnt-clmn, .motivated-team-sec .clmns-grp>.img-clmn, .service-center-sec .clmns-grp>.cntnt-clmn, .service-center-sec .clmns-grp>.img-clmn, .showrooms-sec .clmns-grp>.cntnt-clmn, .showrooms-sec .clmns-grp>.img-clmn, .vision-sec .clmns-grp>.cntnt-clmn, .vision-sec .clmns-grp>.img-clmn {
+    padding: 0 38px;
+    margin: 0 0 25px;
+}
+@media (min-width: 901px) {
+    .sec-md-col-50 {
+        width: 50%;
+    }
+}
+.sec-col, [class*="sec-col"], [class*="sec-lg-col"], [class*="sec-md-col"], [class*="sec-xlg-col"], [class*="sec-xs-col"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+
+
+.service-center-sec .cntnt-grp>:last-child {
+    margin-bottom: 0 !important;
+}
+.service-center-sec .cntnt-grp .btn-grp {
+    padding-top: 30px;
+}
+@media (max-width: 1600px) {
+    .service-center-sec .cntnt-grp .btn {
+        width: 68%;
+        min-width: 68%;
+    }
+}
