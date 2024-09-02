@@ -739,7 +739,7 @@ color: white;
     transition: all 0.3s ease-in-out;
     padding: 1.25rem;
     margin: 1.25rem -1.25rem -1.25rem;
-    background-color:#f94c4c;
+    background-color:rgb(255, 170, 0);
     list-style: none;
     display: flex;
     align-items: center;
@@ -832,7 +832,6 @@ color: white;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.87);
 }
 
-/* box shadow end */
 .nav-item .nav-link {
     background-color: transparent;
 }
@@ -989,3 +988,8 @@ footer .row ul li a {
     color: white;
 }
 
+
+.back_anchor  {
+    text-decoration: none;
+    background-color: transparent;
+}
