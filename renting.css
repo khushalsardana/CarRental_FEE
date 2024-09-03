@@ -170,6 +170,20 @@ body {
 
 .carCards{
     margin-top: 40px;
+    transition: 0.5s ;
+    animation: slideIn 2s ease-out forwards;
+}
+@keyframes slideIn {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }}
+
+.carCards:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px black;
 }
 
 
@@ -193,7 +207,9 @@ body {
     min-width: 100%;
     height: 32rem;
   }
-
+.fontzy{
+    font-family: "Orbitron", sans-serif;
+}
 .checkkar {
     display: flex;
     justify-content: center;
@@ -239,6 +255,15 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 3rem;
+    animation: fadeIn 3s ease-out;
+  }
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
   }
 
   .lux{
@@ -269,6 +294,17 @@ body {
     max-width: 70vw;
     margin-top: 4rem;
   }
+  /* .ev{
+    animation: fadeIn 3s ease-out ;
+  }
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  } */
 
   @media (max-width: 574px) {
     .eeimg {
