@@ -25,23 +25,23 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <!-- LOGO -->
+        <!-- Exoticarz Logo -->
         <img src="./images/logo-removebg.png" width="20%" class="navbar-brand fs-4"></img>
-        <!-- BUTTON -->
+        <!-- Hamburger icon-->
         <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <i class="navbar-toggler-icon"></i>
         </button>
-        <!-- SIDEBAR -->
+        <!-- Sidebar -->
         <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel">
-          <!-- SIDEBAR HEADER -->
+          <!-- sidebar header -->
           <div class="offcanvas-header text-white border-bottom">
             <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
               aria-label="Close"></button>
           </div>
 
-          <!-- SIDEBAR BODY -->
+          <!-- sidebar body-->
           <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
             <ul id="align" class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
               <li class="nav-item mx-2">
@@ -61,9 +61,9 @@
               </li> -->
             </ul>
 
-            <!-- LOGIN / SIGNUP -->
+            <!-- login & signup  -->
             <div id="log_sign" class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2">
-              <a href="#login" class="login text-decoration-none px-3 py-1 rounded-3">Login</a>
+              <a href="login.html" class="login text-decoration-none px-3 py-1 rounded-3">Login</a>
               <a href="#signup" class="signup text-decoration-none px-3 py-1 rounded-3">Sign Up</a>
             </div>
           </div>
@@ -71,7 +71,7 @@
       </div>
     </nav>
   </header>
-
+      
   <main class="caraousell">
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-pause="hover">
       <div class="carousel-indicators">
@@ -87,7 +87,7 @@
           <img class="d-block w-100" src="images/back_2.jpg" alt="First slide" style="object-fit: cover; filter: brightness(60%);">
           <div class="container">
             <div class="carousel-caption">
-              <h1>You need Thrill</h1>
+              <h1 class="fontzy">You need Thrill</h1>
               <p>Thrill that exhilarates you</p>
             </div>
           </div>
@@ -97,7 +97,7 @@
           <img class="d-block w-100" src="images/mclaren_slide.webp" alt="Second slide" style="object-fit: cover; filter: brightness(60%); object-position: 50% 90%;">
           <div class="container">
             <div class="carousel-caption">
-              <h1>You need Speed</h1>
+              <h1 class="fontzy">You need Speed</h1>
               <p>Speed that Frightens you </p>
             </div>
           </div>
@@ -107,7 +107,7 @@
           <img class="d-block w-100" src="images/back_por.webp" alt="Third slide" style="object-fit: cover; filter: brightness(60%); object-position: 50% 90%;">
           <div class="container">
             <div class="carousel-caption">
-              <h1>You need Class</h1>
+              <h1 class="fontzy">You need Class</h1>
               <p>Class that sets you APART</p>
             </div>
           </div>
@@ -117,7 +117,7 @@
           <img class="d-block w-100" src="images/lambo login.jpg" alt="Fourth slide" style="object-fit: cover; filter: brightness(60%);">
           <div class="container">
             <div class="carousel-caption">
-              <h1>You need Endurance</h1>
+              <h1 class="fontzy">You need Endurance</h1>
               <p>Endurance that always motivates you</p>
             </div>
           </div>
@@ -127,7 +127,7 @@
           <img class="d-block w-100" src="images/background2.png" alt="Fifth slide" style="object-fit: cover; filter: brightness(100%); object-position: 50% 90%;">
           <div class="container">
             <div class="carousel-caption">
-              <h1>You need Exoticarz</h1>
+              <h1 class="fontzy">You need Exoticarz</h1>
               <p>Cars driven with perfection</p>
             </div>
           </div>
@@ -144,15 +144,15 @@
       </button>
     </div>
   </main>
-  <section class="Collections"><h1>Explore Our <span class="lux">Luxury</span> Collection</h1></section>
+  <section class="Collections" id="luxury"><h1>Explore Our <span class="lux">Luxury</span> Collection</h1></section>
   <main class="Cars">
     <div class="card carCards" style="width: 20rem;">
       <img src="images/maybach_slide.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h2>Mercedes Benz</h2>
         <h4>GLS 550D</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
-        <div class="checkkar"><a href="/maybach_gls.html"></a><button class="button-50" role="button">Check Out</button> </a></div>
+        <p class="card-text">Luxury SUV that combines opulent design with powerful performance while offering unmatched comfort and advanced technology</p>
+        <div class="checkkar"><a href="/maybach_gls.html"><button class="button-50" role="button">Check Out</button> </a></div>
       </div>
     </div>
 
@@ -161,7 +161,7 @@
       <div class="card-body">
         <h2>Audi Racing</h2>
         <h4>RS-8</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">High-performance sports car that blends stunning design with razor-sharp handling and exhilarating power, making it a true driver's machine.</p>
         <div class="checkkar"><a href="/audi_r8.html"><button class="button-50" role="button">Check Out</button></a></div>
       </div>
     </div>
@@ -170,9 +170,9 @@
       <img src="images/bmwCar.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h2>BMW </h2>
-        <h4>M550i X-Drive</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
-        <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
+        <h4>F30 X-drive</h4>
+        <p class="card-text">Dynamic luxury coupe that delivers thrilling performance with its powerful V8 engine, while offering refined comfort and advanced technology.</p>
+        <div class="checkkar"><a href="/bmw.html"><button class="button-50" role="button">Check Out</button></a></div>
       </div>
     </div>
 
@@ -181,7 +181,7 @@
       <div class="card-body">
         <h2>Porsche</h2>
         <h4>911 GT3</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">A precision-engineered sports car designed for the track, offering exhilarating performance with its high-revving engine and race-inspired handling</p>
         <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
       </div>
     </div>
@@ -191,7 +191,7 @@
       <div class="card-body">
         <h2>Bentley</h2>
         <h4>Flying-Spur 500</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">Luxurious grand tourer that combines exquisite craftsmanship with powerful performance, offering unparalleled comfort and sophistication</p>
         <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
       </div>
     </div>
@@ -200,8 +200,8 @@
       <img src="images/maserati4k.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h2>Maserati</h2>
-        <h4>Quatrroporte Trofeo</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <h4>Quattroporte Trofeo</h4>
+        <p class="card-text">A high-performance luxury sedan that merges Italian elegance with a ferocious V8 engine, delivering a thrilling and refined driving experience</p>
         <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
       </div>
     </div>
@@ -211,7 +211,7 @@
       <div class="card-body">
         <h2>Lexus</h2>
         <h4>LX-570 Grande</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">A rugged yet luxurious SUV, offering powerful off-road capability combined with premium comfort and advanced features.</p>
         <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
       </div>
     </div>
@@ -221,7 +221,7 @@
       <div class="card-body">
         <h2>Dodge</h2>
         <h4>Challenger SRT Hellcat </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">An iconic muscle car, known for its aggressive design and immense horsepower, delivering a raw and thrilling driving experience.</p>
         <div class="checkkar"><a href="/dodge.html"><button class="button-50" role="button">Check Out</button></a></div>
       </div>
     </div>
@@ -231,13 +231,13 @@
       <div class="card-body">
         <h2>Rolls Royce</h2>
         <h4>Cullinan Series-ll</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">The epitome of luxury in an SUV, combining unmatched opulence with commanding presence and effortless performance</p>
         <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
       </div>
     </div>
   </main>
 
-  <section class="ev">
+  <section class="ev" id="ev">
     <div class="container evcont">
       <div class="elogo"><img class="eeimg" src="images/logo-removebg.png" alt="" height="100px" style="margin-left: -15% !important;"></div>
       <div class="eelogo"><h1 style="color: #39FF14;">.ev</h1></div>
@@ -250,8 +250,8 @@
       <div class="card-body">
         <h2>Tesla</h2>
         <h4>Model-X</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
-        <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
+        <p class="card-text">An all-electric SUV renowned for its futuristic design, impressive acceleration, and advanced autonomous driving features</p>
+        <div class="checkkar"><a href="/modelX.html"><button class="button-50" role="button">Check Out</button></button></a></div>
       </div>
     </div>
 
@@ -260,7 +260,7 @@
       <div class="card-body">
         <h2>BMW</h2>
         <h4>i8</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">The BMW i8 is a plug-in hybrid sports car with a futuristic design, combining exhilarating performance with eco-friendly technology.</p>
         <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
       </div>
     </div>
@@ -270,58 +270,59 @@
       <div class="card-body">
         <h2>Tesla</h2>
         <h4>Cybertruck</h4>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illo atque ad.</p>
+        <p class="card-text">A futuristic, all-electric design with an ultra-durable exoskeleton, impressive towing capacity, and cutting-edge technology, making it both resilient and versatile.</p>
         <div class="checkkar"><button class="button-50" role="button">Check Out</button></div>
       </div>
     </div>
   </main>
   <br><br>
+
   <!-- FOOTER START -->
 
 <div class="container-fluid  text-white" style="background-color: #000000;">
   <footer class="py-5">
     <div class="row">
       <div class="footer_links col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>Sitemap</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+          <li class="nav-item mb-2"><a href="/landing.html" class="nav-link p-0 ">Home</a></li>
+          <li class="nav-item mb-2"><a href="/about.html" class="nav-link p-0 ">About</a></li>
+          <li class="nav-item mb-2"><a href="/renting.html" class="nav-link p-0 ">Rent</a></li>
+          <li class="nav-item mb-2"><a href="/slider.html" class="nav-link p-0 ">Top Picks</a></li>
+          <li class="nav-item mb-2"><a href="/contact.html" class="nav-link p-0 ">Contact</a></li>
         </ul>
       </div>
 
       <div class="footer_links col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>Cars</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+          <li class="nav-item mb-2"><a href="/lambo.html" class="nav-link p-0 ">Lamborghini</a></li>
+          <li class="nav-item mb-2"><a href="/maybach_gls.html" class="nav-link p-0 ">Maybach</a></li>
+          <li class="nav-item mb-2"><a href="/mclaren.html" class="nav-link p-0 ">McLaren</a></li>
+          <li class="nav-item mb-2"><a href="/rolls_royce.html" class="nav-link p-0 ">Rolls Royce</a></li>
+          <li class="nav-item mb-2"><a href="/dodge.html" class="nav-link p-0 ">Dodge</a></li>
         </ul>
       </div>
 
       <div class="footer_links col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>Access</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+          <li class="nav-item mb-2"><a href="/login.html" class="nav-link p-0 ">Login</a></li>
+          <li class="nav-item mb-2"><a href="/login.html" class="nav-link p-0 ">Sign Up</a></li>
+          <li class="nav-item mb-2"><a href="/frontpage.html" class="nav-link p-0 ">Start</a></li>
+          <li class="nav-item mb-2"><a href="#luxury" class="nav-link p-0 ">Luxury Cars</a></li>
+          <li class="nav-item mb-2"><a href="#ev" class="nav-link p-0 ">Electric Cars</a></li>
         </ul>
       </div>
 
       <div class="col-md-5 offset-md-1 mb-3">
         <form>
           <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
+          <p>Discover what's new and exciting from us.</p>
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+            <button class="btn btn-danger" type="button">Subscribe</button>
           </div>
         </form>
       </div>
@@ -337,8 +338,6 @@
     </div>
   </footer>
 </div>
-
-<!-- FOOTER END -->
 
 
 
