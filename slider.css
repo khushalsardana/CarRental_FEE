@@ -266,6 +266,9 @@ letter-spacing: 8px;
 }
 
 @media (max-width: 600px) {
+    html{
+        height: 100px;
+    }
     .content {
         width: 90%;
         font-size: 0.9em;
