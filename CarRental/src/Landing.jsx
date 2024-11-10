@@ -1,27 +1,23 @@
 import React from 'react'
-import './App.css'
+import './Front.css'
 import Header from './components/Header';
-import Caraousell from './components/caraousell';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Collections from './components/collections';
 import Footer from './components/Footer';
+import Front from './components/Front';
 
 
 
 
-function Rent() {
+function Landing() {
  
   return (
     <>
     <Header/>
-    <Caraousell/>
-    <Collections/>
+    <Front/>
     <Footer/>
   </>
   
   )
 }
 
-export default Rent
-
-   
+export default Landing
