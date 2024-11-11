@@ -17,23 +17,8 @@ signupLink.onclick = () => {
 };
 
 
-///pass strength
-const passwordInput = document.querySelector(".signup input[placeholder='Password']");
-const strengthMessage = document.createElement("p");
-passwordInput.parentElement.appendChild(strengthMessage);
 
-passwordInput.addEventListener("input", function() {
-    const value = passwordInput.value;
-    let strength = "Weak";
-    if (value.length > 8 && /[A-Z]/.test(value) && /[0-9]/.test(value)) {
-        strength = "Medium";
-    }
-    if (value.length > 12 && /[^A-Za-z0-9]/.test(value)) {
-        strength = "Strong";
-    }
-    strengthMessage.textContent = `Password strength: ${strength}`;
-    strengthMessage.style.color = strength === "Strong" ? "green" : (strength === "Medium" ? "orange" : "red");
-});
-//
 
-///
+
+
+
