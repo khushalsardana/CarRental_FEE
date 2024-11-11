@@ -14,6 +14,9 @@
      <!-- FONT AWESOME LINK -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  
+
+     <!-- AOS CSS  -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
  
      <link rel="stylesheet" href="landing.css">
 </head>
@@ -23,24 +26,17 @@
     <!-- NAVBAR WITH BACKGROUND IMAGE -->
     <div class="backimg">
         <img class="main_img" src="./images/background2.png">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav data-aos="fade-down" data-aos-duration="1500"  data-aos-delay="400" class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <!-- LOGO -->
                 <img src="./images/logo.jpg" width="20%" class="navbar-brand fs-4"></img>
-                <!-- BUTTON -->
                 <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <i class="navbar-toggler-icon"></i>
                 </button>
-                
 
-                <!-- SIDEBAR -->
                 <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <!-- SIDEBAR HEADER -->
                     <div class="offcanvas-header text-white border-bottom">
                         <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-
-                    <!-- SIDEBAR BODY -->
                     <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                         <ul id="align" class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
                             <li class="nav-item mx-2">
@@ -55,22 +51,17 @@
                             <li class="nav-item mx-2">
                                 <a class="nav-link" href="slider.html">Brands</a>
                             </li>
-                            <!-- <li class="nav-item mx-2">
-                                <a class="nav-link" href="#services">Services</a>
-                            </li> -->
-                            
-                            
                         </ul>
 
-                        <!-- LOGIN / SIGNUP -->
                         <div id="log_sign" class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2">
-                            <a href="#login" class="login text-decoration-none px-3 py-1 rounded-3">Login</a>
+                            <a href="login_2.html" class="login text-decoration-none px-3 py-1 rounded-3">Login</a>
                             <a href="#signup" class="signup text-decoration-none px-3 py-1 rounded-3">Sign Up</a>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
+    </div>
 
 
         <!-- CONTENT AFTER BACKGROUND IMAGE -->
@@ -122,7 +113,8 @@
      <section id="about" class="about_section" style="margin-top: 12%;">
         <div class="container">
             <div class="row flex-lg-row flex-column-reverse">
-                <div class="cont col-lg-6 text-center text-lg-start">
+                <div class="cont col-lg-6 text-center text-lg-start" data-aos="fade-up-right" data-aos-easing="linear"
+                data-aos-duration="800">
                     <h1 class="head1 text-white">Welcome to <span class="span1"> Exoticarz</span>,<br class="d-none d-lg-block">   where luxury meets the road. </h1> <br>
 
 <p class="p1 text-white">We offer an exclusive collection of high-end vehicles designed to elevate your driving experience. Whether you're looking to cruise in style for a special occasion or make a statement on the road.</p> 
@@ -131,7 +123,8 @@
 
 <a href="about.html" class="main-btn mt-4 ps-3 pe-3">Explore</a>
                 </div>
-       <div class="welcome col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center"><img src="https://plus.unsplash.com/premium_photo-1661277623135-224e67c9ff81?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="500" class="img-fluid" alt="about"> </div>         
+       <div class="welcome col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center" data-aos="fade-up-left" data-aos-easing="linear"
+       data-aos-duration="800"><img src="https://plus.unsplash.com/premium_photo-1661277623135-224e67c9ff81?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="500" class="img-fluid" alt="about"> </div>         
             </div>
         </div>
         </section>
@@ -149,27 +142,27 @@
             <div class="row">
                 <div class="col-sm-12 section-title text-center mb-5">
                     <h4 class="heading4 text-white">We Are here For You</h4>
-                    <h2 class="heading2 text-white"><b>Our Awesome Services</b></h2>
+                    <h2 style="margin-bottom: 7%;" class="heading2 text-white"><b>Our Awesome Services</b></h2>
                 </div>
             </div>
             <div class="row align-items-center service-item-section">
                 <div class="col-lg-7 p-lg-0  col-sm-12 ">
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="vehicleinsurance" role="tabpanel">
-                            <img src="./images/services1.jpeg"  class="img-fluid" alt="Vehicle Insurance">
+                            <img src="./images/services1.jpeg"  class="img-fluid" alt="Vehicle Insurance" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="80"  data-aos-easing="linear">
                         </div>
                         <div class="tab-pane fade" id="airport" role="tabpanel">
-                            <img src="./images/services2.jpeg" class="img-fluid" alt="Airport Facilities">
+                            <img src="./images/services2.jpeg" class="img-fluid" alt="Airport Facilities" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="80"  data-aos-easing="linear">
                         </div>
                         <div class="tab-pane fade" id="wedding" role="tabpanel">
-                            <img src="./images/services3.jpeg" class="img-fluid" alt="Wedding Cars">
+                            <img src="./images/services3.jpeg" class="img-fluid" alt="Wedding Cars" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="80"  data-aos-easing="linear">
                         </div>
                         <div class="tab-pane fade" id="support" role="tabpanel">
-                            <img src="./images/services4.jpeg" class="img-fluid" alt="24x7 Support">
+                            <img src="./images/services4.jpeg" class="img-fluid" alt="24x7 Support" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="80"  data-aos-easing="linear">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5  position-relative">
+                <div class="col-lg-5  position-relative" data-aos="fade-down-left" data-aos-duration="1000"  data-aos-easing="linear">
                     <div class="service-menu-area">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li style="background-color: transparent;" class="nav-item">
@@ -226,12 +219,20 @@
      <section id="back_fixed" class="back_section">
         <div class="container-fluid">
             <div class="back_content">
-                <h2 class="heading2 blur_head text-center "><b>Why Choose <span class="bg_blur_span">Exoticarz</span>?</b></h2>
-                <h4 class="heading4 text-center ">Premium Roadside Assistance</h4>
-                <p class="para text-center ">When you choose us, you're selecting a brand that prioritizes luxury, performance, and customer satisfaction. Our meticulously curated fleet features the latest models of the world's most coveted vehicles, ensuring you drive away in a car that matches your style and aspirations. We pride ourselves on delivering top-tier service, with a seamless booking process, flexible rental options, and personalized support from start to finish. </p> <br> <br>
+                <h2 data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="linear" data-aos-duration="1000" class="heading2 blur_head text-center "><b>Why Choose <span class="bg_blur_span">Exoticarz</span>?</b></h2>
+                <h4 data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="linear" data-aos-duration="1000" class="heading4 text-center ">Premium Roadside Assistance</h4>
+                <p class="para text-center " data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="linear" data-aos-duration="1000">When you choose us, you're selecting a brand that prioritizes luxury, performance, and customer satisfaction. Our meticulously curated fleet features the latest models of the world's most coveted vehicles, ensuring you drive away in a car that matches your style and aspirations. We pride ourselves on delivering top-tier service, with a seamless booking process, flexible rental options, and personalized support from start to finish. </p> <br> <br>
                 <ul class="back_logo text-center">
                     <li class="lg"><a class="i_logo" href="#"><i class="finger_logo fa-solid fa-fingerprint fa-2xl text-white pt-5"></i></a></li> <br>
-                   <a class="back_anchor" href="slider.html"> <b class="exp-logo  text-center">Explore</b> </a> </ul>
+                   <a data-aos="fade-left"
+                   data-aos-offset="300"
+                   data-aos-easing="linear" data-aos-duration="1000" class="back_anchor" href="slider.html"> <b class="exp-logo  text-center" >Explore</b> </a> </ul>
 
                 
             </div>
@@ -244,10 +245,12 @@
 
 
      <!-- TEAM START -->
-     <section id="team" class="team_section">
+     <section style="margin-bottom: 20%;" id="team" class="team_section" data-aos="zoom-out-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 section-title text-center mb-5">
+                <div class="col-sm-12 section-title text-center mb-5" >
                     <h4 class="heading4 text-white">Explore The Exorticity</h4>
                     <h2 class="heading2 text-white"><b>Our Special Brands</b></h2>
                 </div>
@@ -335,7 +338,10 @@
 
  <!-- PICKS SECTION -->
 
- <section id="picks" class="picks_section">
+ <section style="margin-bottom: 20%;"  id="picks" class="picks_section" data-aos="zoom-out-up"
+ data-aos-easing="linear"
+
+ data-aos-duration="1000">
     <div class=" container-fluid">
         <div class="row">
             <div class="picks_main col-sm-12 section-title text-center mb-5">
@@ -404,14 +410,69 @@
         </div>
     </div>
 </section>
-<!-- Picks Section End -->
+<!-- Picks Section End --> 
+
+
+
+
+// slider start
+<div class="row">
+    <div class="wrap col-sm-12  text-center mb-5">
+        <h4 class="heading4 text-white">Premium cars, prime savings</h4>
+        <h2 class="heading2 text-white"><b>Only on <span class="wrap_span">Exoticarz</span></b></h2>
+    </div>
+</div>
+
+
+      <div class="wrapper1">
+        <div class="wrap_card active">
+          <h3>BMW Frozen M4</h3>
+        <button class="wrap-btn">Check Out</button>
+        
+        </div>
+
+        <div class="wrap_card">
+            <h3>Mercedes CLA 250</h3>
+        <button class="wrap-btn">Check Out</button>
+        </div>
+
+        <div class="wrap_card">
+            <h3>Lexus IS350</h3>
+         <button class="wrap-btn">Check Out</button>   
+        </div>
+        <div class="wrap_card">
+            <h3>Mercedes G-Wagon</h3>
+        <button class="wrap-btn">Check Out</button>
+        </div>
+        <div class="wrap_card">
+            <h3>Dodge Demon</h3>
+       <button class="wrap-btn">Check Out</button>
+        </div>
+      </div>
+
+
+
+
+      <!-- <div class="container bla-bla"> -->
+<!-- <button type="submit" class="btn-hai" onclick="openPopup()">Submit></button> -->
+<!-- <div class="popup" id="popup">
+<img class="modal_image" src="/CarRental_FEE/images/tick.png">
+<h2 class="modal_head">Thank You!</h2>
+<p class="modal_para">Your details has been successfully submitted. Thanks!</p> <button type="button" onclick="closePopup()">OK</button> </div> -->
+<!-- </div> -->
+
+
+
 
 
 
 
 <!-- FOOTER START -->
 
-<div class="container-fluid  text-white">
+<div class="container-fluid  text-white" data-aos="fade-left"
+data-aos-offset="2"
+
+data-aos-easing="ease-in-sine" data-aos-duration="1000">
     <footer class="py-5">
       <div class="row">
         <div class="footer_links col-6 col-md-2 mb-3">
@@ -454,7 +515,14 @@
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
+
+              
+              <div class="container bla-bla">
+              <button class="btnn btn-primary" type="button" onclick="openPopup()">Subscribe</button>
+              <div class="popup" id="popup">
+                <img class="modal_image" src="/CarRental_FEE/images/tick.png">
+                <h2 class="modal_head">Thank You For Subscribing</h2>
+                <p class="modal_para">Your details has been successfully submitted. Thanks!</p> <button type="button" onclick="closePopup()">OK</button> </div> </div>
             </div>
           </form>
         </div>
@@ -480,6 +548,16 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
+
+    <!-- JS -->
+     <script src="landing.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>
