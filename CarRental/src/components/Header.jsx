@@ -104,7 +104,8 @@
 
 
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavLink } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -153,55 +154,52 @@ const header = () => {
             </div>
             {/* Sidebar body */}
             <div className="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
-              <ul
-                id="align"
-                className="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3"
-              >
+              <ul className="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
                 <li className="nav-item mx-2">
-                  <a
-                    className="nav-link"
-                    aria-current="page"
-                    href="/landing.html"
+                  <NavLink className="nav-link" to={"/home"}
+                    onClick={toggleSidebar}
+                    activeClassName="active" 
                   >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link" href="/about.html">
+                  <NavLink className="nav-link" to={"/about"}
+                    onClick={toggleSidebar}
+                    activeClassName="active"
+                  >
                     About
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link active" href="/renting.html">
+                  <NavLink className="nav-link" to={"/rent"}
+                    onClick={toggleSidebar}
+                    activeClassName="active"
+                  >
                     Rent
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link" href="/slider.html">
+                  <NavLink className="nav-link" to={"/topPicks"}
+                    onClick={toggleSidebar}
+                    activeClassName="active"
+                  >
                     Top Picks
-                  </a>
+                  </NavLink>
                 </li>
-                {/* <li className="nav-item mx-2">
-                  <a className="nav-link" href="/">Top Brands</a>
-                </li> */}
               </ul>
               {/* Login & Sign up */}
-              <div
-                id="log_sign"
-                className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2"
-              >
-                <a
-                  href="login.html"
-                  className="login text-decoration-none px-3 py-1 rounded-3"
+              <div id="log_sign" className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2">
+                <NavLink to="/login" className="login text-decoration-none px-3 py-1 rounded-3"
+                  onClick={toggleSidebar}
                 >
                   Login
-                </a>
-                <a
-                  href="#signup"
-                  className="signup text-decoration-none px-3 py-1 rounded-3"
+                </NavLink>
+                <NavLink to="/signup" className="signup text-decoration-none px-3 py-1 rounded-3"
+                  onClick={toggleSidebar}
                 >
                   Sign Up
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -209,6 +207,7 @@ const header = () => {
       </nav>
     </header>
   );
-};
+}
 
 export default header;
+

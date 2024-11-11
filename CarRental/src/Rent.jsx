@@ -1,27 +1,34 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import Caraousell from './components/caraousell';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Collections from './components/collections';
+import './Rent.css'
+import Caraousell from './components/Caraousell';
+import Collections from './components/Collections';
 import Footer from './components/Footer';
+// import LandingPage from './components/Landing';
 
+// import AboutPage from './components/About';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-function Rent() {
- 
+const Rent = () => {
   return (
-    <>
-    <Header/>
-    <Caraousell/>
-    <Collections/>
-    <Footer/>
-  </>
-  
-  )
+    <Router>
+      <Header /> 
+
+      <Routes>
+        {/* routes for variable components in pages */}
+        {/* <Route path="/home" element={<LandingPage />} /> */}
+        {/* <Route path="/about" element={<AboutPage />} /> */}
+        <Route path="/rent" element={<><Caraousell /><Collections /></>} />
+        
+        {/* fallback route */}
+        <Route path="*" element={<><Caraousell /><Collections /></>} />
+      </Routes>
+
+      <Footer />
+    </Router>
+  );
 }
 
-export default Rent
-
-   
+export default Rent;
