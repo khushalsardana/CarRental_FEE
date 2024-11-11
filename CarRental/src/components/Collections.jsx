@@ -45,7 +45,7 @@ const TogglerSwitch = () => {
       model: "GLS 550D",
       description:
         "Luxury SUV that combines opulent design with powerful performance while offering unmatched comfort and advanced technology.",
-      link: "/maybach_gls.html",
+      link: "/lamborghini",
     },
     {
       imgSrc: "images/audi_r8_slide.jpg",
@@ -129,7 +129,7 @@ const TogglerSwitch = () => {
       model: "i8",
       description:
         "The BMW i8 is a plug-in hybrid sports car with a futuristic design, combining exhilarating performance with eco-friendly technology.",
-      link: null,
+      link: "/bmwI8",
     },
     {
       imgSrc: "images/cyber.webp",
@@ -137,7 +137,79 @@ const TogglerSwitch = () => {
       model: "Cybertruck",
       description:
         "A futuristic, all-electric design with an ultra-durable exoskeleton, impressive towing capacity, and cutting-edge technology, making it both resilient and versatile.",
-      link: null,
+      link: "/cyber",
+    },
+    {
+      imgSrc: "images/leaf.jpeg", 
+      title: "Nissan",
+      model: "Leaf",
+      description:
+        "The Nissan Leaf is one of the world's most popular and affordable electric cars, offering a practical range and smooth driving experience.",
+      link: "/leaf",
+    },
+    {
+      imgSrc: "images/porsche-taycan.jpeg",
+      title: "Porsche",
+      model: "Taycan",
+      description:
+        "Porsche's all-electric sports car combines luxury, performance, and sustainable energy, offering thrilling acceleration and a refined driving experience.",
+      link: "/taycan",
+    },
+    {
+      imgSrc: "images/mercedes-eqs.jpeg", 
+      title: "Mercedes-Benz",
+      model: "EQS",
+      description:
+        "The EQS is Mercedes-Benz's flagship electric sedan, featuring cutting-edge technology, stunning design, and an ultra-smooth ride with a long-range battery.",
+      link: "/eqs",
+    },
+    {
+      imgSrc: "images/audi-e-tron.jpg", 
+      title: "Audi",
+      model: "e-Tron",
+      description:
+        "A luxury electric SUV that combines Audi's trademark style with the benefits of electric driving, offering exceptional comfort and performance.",
+      link: "/e-tron",
+    },
+    {
+      imgSrc: "images/ford-mach-e.jpeg", 
+      title: "Ford",
+      model: "Mustang Mach-E",
+      description:
+        "The Mustang Mach-E is an all-electric SUV that blends iconic Mustang performance with the latest electric technology, offering great range and fun-to-drive dynamics.",
+      link: "/mach-e",
+    },
+    {
+      imgSrc: "images/volvo-xc40.jpeg",
+      title: "Volvo",
+      model: "XC40 Recharge",
+      description:
+        "The XC40 Recharge is Volvo's fully electric compact SUV, providing a premium driving experience with sustainable technology and advanced safety features.",
+      link: "/xc40-recharge",
+    },
+    {
+      imgSrc: "images/jaguar-ipace.jpeg", 
+      title: "Jaguar",
+      model: "I-PACE",
+      description:
+        "Jaguar's all-electric performance SUV, offering a blend of luxury, style, and performance with an impressive range and rapid charging capabilities.",
+      link: "/ipace",
+    },
+    {
+      imgSrc: "images/chevy-bolt.jpeg", 
+      title: "Chevrolet",
+      model: "Bolt EV",
+      description:
+        "The Chevy Bolt EV is an affordable, all-electric compact car that offers an impressive range and quick acceleration at an accessible price.",
+      link: "/bolt",
+    },
+    {
+      imgSrc: "images/rivian-r1t.webp", 
+      title: "Rivian",
+      model: "R1T",
+      description:
+        "Rivian's R1T is an all-electric adventure pickup truck that combines rugged capability with advanced electric powertrains, designed for off-road enthusiasts.",
+      link: "/rivian-r1t",
     },
     
   ];
@@ -170,7 +242,6 @@ const TogglerSwitch = () => {
         </h1>
       </section>
 
-      {/* Render cars based on the toggle */}
       <main className="Cars" id={isGreenCarsVisible ? "greenEV" : "gas"}>
         {!isGreenCarsVisible
           ? luxuryCars.map((car, index) => (
